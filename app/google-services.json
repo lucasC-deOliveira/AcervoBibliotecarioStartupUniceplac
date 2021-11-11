@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175500405128",
+    "firebase_url": "https://acervobibliotecario-75c1f-default-rtdb.firebaseio.com",
+    "project_id": "acervobibliotecario-75c1f",
+    "storage_bucket": "acervobibliotecario-75c1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175500405128:android:44ca42f98353109bddf23d",
+        "android_client_info": {
+          "package_name": "com.example.acervobibliotecario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175500405128-p4ssg71103pnvoed78u2bugi5i1sopin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL9LiIOWgcZQaxa1m4Gy25Cw4O53Fa-0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175500405128-p4ssg71103pnvoed78u2bugi5i1sopin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
