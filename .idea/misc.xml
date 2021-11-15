@@ -12,6 +12,8 @@
         <entry key="app/src/main/res/layout/activity_cadastro_acervo.xml" value="0.27309782608695654" />
         <entry key="app/src/main/res/layout/activity_cadastro_acervo2.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_consulta.xml" value="0.35280797101449274" />
+        <entry key="app/src/main/res/layout/activity_consultaAutor.xml" value="0.338768115942029" />
+        <entry key="app/src/main/res/layout/activity_consultaTitulo.xml" value="0.338768115942029" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.35280797101449274" />
         <entry key="app/src/main/res/layout/activity_login_usuario.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />

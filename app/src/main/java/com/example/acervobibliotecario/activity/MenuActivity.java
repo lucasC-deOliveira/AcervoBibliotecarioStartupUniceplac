@@ -43,7 +43,7 @@ public class MenuActivity extends AppCompatActivity {
         buttonConsultar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ConsultaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ConsultaDisponibilidadeMenuActivity.class);
                 startActivity(intent);
             }
         });

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AcervoBibliotecario">
         <activity
+            android:name=".activity.ConsultaDisponibilidadeMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.LoginUsuarioActivity"
             android:exported="false" />
         <activity
@@ -19,7 +22,10 @@
             android:name=".activity.AgendarActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ConsultaActivity"
+            android:name=".activity.ConsultaActivityTitulo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ConsultaActivityAutor"
             android:exported="false" />
         <activity
             android:name=".ui.login.LoginActivity"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.ConsultaActivity">
+    tools:context=".activity.ConsultaActivityTitulo">
 
     <TextView
         android:id="@+id/textView6"
@@ -87,39 +87,6 @@
             android:ems="10"
             android:inputType="textPersonName" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@color/transparente"
-            android:text="Ou"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@color/transparente"
-            android:text="Autor"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/editTextAutorConsulta"
-            android:layout_width="match_parent"
-            android:layout_height="27dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/rounded_corner"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
         <Button
             android:id="@+id/buttonConsultar"
             android:layout_width="match_parent"
@@ -133,10 +100,9 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_width="311dp"
+        android:layout_height="227dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="50dp"
         android:background="@color/azul_claro"
         android:orientation="vertical"
@@ -144,20 +110,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.536">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.042">
 
-        <TextView
-            android:id="@+id/textResultadoConsulta"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTitulo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:background="@color/transparente"
-            android:gravity="center_horizontal"
-            android:text="Faça uma consulta"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:layout_height="match_parent" />
 
 
     </LinearLayout>
